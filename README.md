@@ -12,12 +12,16 @@
 ## Day 2
 - 웹 크롤링
   - 공공데이터 API
-  - 라이브러리 사용
+    - csv 처리
+    - db 처리
+
+## Day 3
+- 웹 크롤링
+  - Beautifulsoup
+  - Selenium
 
 - 빅데이터 분석
   - 통계분석
-
-## Day 3
 
 ## Day 4
 
