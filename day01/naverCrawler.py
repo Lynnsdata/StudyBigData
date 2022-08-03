@@ -1,4 +1,3 @@
-import imp
 import os
 import sys
 import urllib.request
@@ -48,7 +47,7 @@ def getPostData(post, jsonResult, cnt):
     originallink = post['originallink']
     link = post['link']           # link 랑 originallink 가 달라서 둘다 써줌
 
-    # 
+    # 작성 날짜, 형식 맞춰줘야 함
     pubDate = datetime.datetime.strptime(post['pubDate'], '%a, %d %b %Y %H:%M:%S +0900')
     pubDate = pubDate.strftime('%Y-%m-%d %H:%M:%S')  # 2022-08-02 15:56:34
 
@@ -77,7 +76,7 @@ def main():
 
     # file output
     with open(f'./{srcText}_naver_{node}.json', mode='w', encoding='utf-8') as outfile:
-        jsonFile = json.dumps(jsonResult, indent=4, sort_keys=True, ensure_ascii=False)
+        jsonFile = json.dumps(jsonResult, indent=4, sort_keys=True, ensure_ascii=False)   # indent=4 : 4번 들여써라
         outfile.write(jsonFile)
 
     print(f'가져온 데이터 : {cnt} 건')
