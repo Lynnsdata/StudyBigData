@@ -54,7 +54,7 @@
     </property>
     <widget class="QLabel" name="label">
      <property name="text">
-      <string>검색어</string>
+      <string>영화제목</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
