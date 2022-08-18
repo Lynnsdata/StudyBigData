@@ -45,5 +45,5 @@
   - QtDesigner로 UI생성
   - 네이버 API로 네이버 뉴스, 네이버 영화 검색앱 만들기
   
-  ![navernews_crawling](https://user-images.githubusercontent.com/108312195/185272904-e7f9290f-0b86-43d6-9e4b-b2e1a051ae6e.png)
+  ![navernews_crawling]https://user-images.githubusercontent.com/108312195/185272904-e7f9290f-0b86-43d6-9e4b-b2e1a051ae6e.png
 
